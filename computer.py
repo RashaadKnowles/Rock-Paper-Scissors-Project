@@ -9,7 +9,6 @@ class Computer(Player):
             print(character)
         
        
-      
     def choose_gesture(self):
         self_gesture_list = random.choice(self.gesture_list)
         print(self_gesture_list)
